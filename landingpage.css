@@ -1,0 +1,477 @@
+
+            body {
+                margin: 0px;  
+                padding: 0px; 
+            }
+
+            p {
+                font-family: Arial;
+                
+                
+            }
+
+            a {
+                font-size: 11px;
+                margin-right: 20px;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                white-space: nowrap;
+                
+            } 
+            
+            
+
+            @media only screen and (max-width: 600px) {
+                .middle-section a {
+                    display: none;
+                    
+                }
+
+                .log-in {
+                    
+                }
+                .right-section {
+                    width: fit-content
+                }
+              }
+
+            @media only screen and (max-width: 950px) {
+                .free-trial {
+                  display: none;
+                  width:1000px;
+                  
+                }
+              }  
+
+            @media only screen and (max-width: 800px) {
+                .main-section {
+                    flex-direction: column;
+                    display: flex;
+                }
+
+                #right-section-class {
+                    width: 100%;
+                    
+                }
+
+                p.build {
+                    font-size: 150px;
+                }
+
+                p.desc {
+                    font-size: 20px;
+                }
+                
+                .build-desc {
+                    display: inline-block;
+                    margin-right: 25px
+                }
+
+                #main-section {
+                    padding-left: 30px;
+                }
+                
+                img.screenshot {
+                    margin-left: 0px;
+                    width: 700px
+                }
+
+                .left-section-content {
+                    margin-top: 20px;
+                }
+
+                  div.review {
+                    width:300px
+                }
+            }  
+
+            .screenshot:hover {
+                transform: scale(1.05);
+            }
+
+            .middle-section {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                flex:1;
+                width: 100px;
+                margin-left: 10px;
+                max-width: 600px;
+                
+            }
+
+            .link:hover, .log-in:hover {
+                text-decoration: underline;
+                text-decoration-color: aliceblue;
+            }
+
+            .link {
+                 font-family: 'Univers Next Pro Extended', sans-serif;;
+            }
+
+            .navbar {
+               display:flex;
+               align-items: center;
+               position: sticky;
+               width:100%;
+               top: 0px;
+               justify-content:center;
+               background-color: black;
+               z-index: 10;
+            }
+
+            
+
+            .right-section {
+                display: flex;
+                justify-content:space-around;
+                width: fit-content;
+                
+            }
+
+            .left-section {
+                
+            }
+
+            .name {
+                font-weight: 600;
+                margin-left: 20px;
+                font-size:23px;
+                color: white;
+                font-family: 'ZCOOL QingKe HuangYou'
+            }
+            .log-in {
+                color: white;
+                font-size: 17px;
+                font-weight: 600;
+                align-self: center;
+                
+            }
+
+
+            .free-trial {
+                background-color: #3b77ac;
+                border: none;
+                white-space: nowrap;
+                height: 40px;
+                vertical-align:middle;
+                border-radius: 5px;
+                margin-left: 30px;
+                margin-top: 3px;
+                cursor: pointer;
+                color: white;
+                padding-left: 20px;
+                flex:1;
+                padding-right:20px;
+                margin-right: 0px;
+                
+            }
+
+            .free-trial:hover {
+                transform:scale(1.05);
+            }
+
+            .free-trial:active {
+                transform:scale(1);
+            }
+
+            .main-section {
+                background-image: linear-gradient(#f3b09f, #FCEFDE);
+                height: auto;
+                padding-left: 70px;
+                padding-bottom: 60px;
+                display: flex;
+                width:inherit
+            }
+
+            .build {
+               font-weight: 600; 
+               font-size: 110px;
+               margin: 0px
+            }
+
+            .desc {
+                font-size: 15px;
+                line-height: 20px;
+                margin-bottom: 40px;
+                font-weight: 600;
+                margin-bottom: 40px;
+                
+                width: 300px
+            }
+
+            .review-name {
+                font-size: 25px;
+                font-family: 'ZCOOL QingKe HuangYou';
+                margin: 0px;
+                padding-top: 15px;
+                
+            }
+
+            .review-desc {
+                font-size: 12px;
+                font-weight: 300;
+                width: 200px;
+                font-family: 'Univers Next Pro Extended', sans-serif;
+                padding-bottom: 16px;
+                
+            }
+
+            .review {
+                background: #DFE8CC;
+                display: inline-block;
+                padding-left: 30px;
+                padding-right: 30px;
+                
+                border-radius: 10px;
+                padding-right: 10px;
+                height: 270px;
+                width: 280px;
+                padding-top: 20px;
+                
+            }
+
+            .beluga-cat,.beluga-role {
+                margin: 0px;
+                font-size: 12px;
+                font-weight:600;
+            }
+            .beluga-role {
+                margin-top: 5px;
+            }
+
+            .beluga-pfp, .review-pfp {
+                height: 40px;
+                width: 40px;
+                border-radius: 100px;
+                margin-right: 10px;
+                
+            }
+
+            .grid {
+                display: flex;
+            }
+
+            .screenshot {
+                height: 60%;
+                width: 90%;
+                margin-top: 15px;
+                margin-left: 5%;
+                transition: transform 0.5s;
+            }
+
+            
+
+            .catagory-flex {
+                display: flex;
+                margin-left: 30px;
+            }
+
+            .catagory1, .catagory2, .catagory3 {
+                width: 200px;
+                
+                font-size: 14px;
+                margin-top: 20px;
+                margin-right: 20px;
+            }
+
+            .title-catagory {
+                font-weight: 600;
+            }
+
+            .right-section-class {
+                display: flex;
+                flex-direction: column;
+                width: 60%
+            }
+
+            .fa.fa-star.checked {
+                color: #FFA500;
+                size: 10px;
+                
+            }
+            .fa.fa-star.checked1 {
+                color: #FFA500;
+                size: 10px;
+                padding-top: 16px;
+                
+            }
+
+            .top-review {
+                display: flex;
+            }
+
+            .star {
+                height:fit-content;
+            }
+
+            .main-name-review, .main-role-review {
+                margin: 0px
+            }
+
+            .main-name-review {
+                font-size: 15px;
+            }
+
+            .main-role-review {
+                font-size: 12px;
+            }
+
+            .review-pfp {
+                width: 47px;
+                height: 47px
+            }
+
+            .review-content {
+                width: 170px;
+                margin-left: 30px;
+            }
+
+            .main-title-review {
+                font-size: 17px;
+                font-weight: 600;
+            }
+
+            .main-content-review {
+                font-size: 14px;
+                
+            }
+
+            .review-block1, .review-block2, .review-block3, .review-block4, .review-block5,.review-block6, .review-block7 {
+                height: 200px;
+                background-color: #FFF5D6;
+                
+                border-radius: 10px;
+                vertical-align: middle;
+                padding-bottom: 30px;
+                justify-self: center;
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-right: 20px;
+                width: 90%;
+                transition: transform 1s;
+            }
+
+            .review-block1:hover, .review-block2:hover, .review-block3:hover, .review-block4:hover, .review-block5:hover,.review-block6:hover, .review-block7:hover {
+                transform: scale(1.07);
+            }
+            @media screen and (min-width: 1100px){
+                
+            
+                .review-block1 {
+                    grid-column: span 2;
+                }
+
+                .review-block2 {
+                    background-color: #F7E2D6;
+                    
+                }
+
+                .review-block3 {
+                    background-color: #CEE5D0;
+                    grid-row: span 2;
+                    height: 92%
+                }
+                
+                .review-block6 {
+                    grid-column: span 2;
+                    background-color: #F7E2D6;
+                }
+
+                .review-block4 {
+                    background-color: #F7E2D6;
+                }
+                
+                .review-block5 {
+                    background-color: #CEE5D0;
+                }
+                
+            }
+
+            .review-block-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                gap: 20px;
+            }
+            .review-section {
+                
+                
+                background-image: linear-gradient(#FFDDCC,#FFCCCC);
+                padding-bottom: 80px;
+                
+            }
+
+            .customer-review {
+                
+                margin-bottom: 0px;
+                font-size: 23px;
+                font-weight: 600;
+                text-align: center;
+                margin-top: 0px;
+
+            }
+
+            .additional-info {
+                margin-top: 7px;
+                margin-bottom: 50px;
+                font-size: 13px;
+                color: #999797;
+                text-align: center;
+            }
+
+            
+            .review-top {
+                display: flex;
+                align-items: center;
+            }
+
+            .footer {
+                display: grid;
+                grid-template-columns: repeat(4,auto);
+                justify-content: center;
+                color: white;
+                column-gap: 100px;
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+
+            footer {
+                background-color: #F87474;
+            }
+
+            .footer-element {
+                margin-bottom: 2px;
+                margin-left: 20px;
+                font-size: 11px;
+            }
+
+            .footer-element:hover {
+                cursor: pointer;
+                color: #FFCDCC;
+                text-decoration: underline
+            }
+
+            .footer-title {
+                font-weight: 600;
+                margin-left: 20px;
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+
+            .main-content-review {
+                font-family: 'Univers Next Pro Extended', sans-serif;
+                font-size: 13px;
+            }
+
+            
+
+
+            
+
+            
+
+           
+
+
+            
